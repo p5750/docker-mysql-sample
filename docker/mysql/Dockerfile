@@ -1,6 +1,6 @@
 FROM mysql:8.0.23
-RUN apt-get update
-RUN apt-get install -y tzdata locales && \
+RUN apt-get update && \
+    apt-get install -y tzdata locales && \
     cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime && \
     echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && \
     locale-gen
