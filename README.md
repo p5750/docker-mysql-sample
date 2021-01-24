@@ -1,6 +1,8 @@
 # docker-mysql-sample
 
-docker-composeでMySQLコンテナを立てるサンプル。
+docker-composeでMySQLコンテナを立てる、
+[Qiitaに書いた記事](https://qiita.com/p5750/items/c8e20744bd05fe6de8ea) のサンプルコード。
+
 
 ## 実行
 
